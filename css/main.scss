@@ -1,0 +1,273 @@
+.family {
+  max-width: 948px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  &__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(91.03deg, rgba(255, 254, 254, 0.23) -47.11%, rgba(255, 254, 254, 0.23) 110.32%);
+    backdrop-filter: blur(30px);
+    border-radius: 5px;
+    padding: 60px 10px 60px 100px;
+  }
+  &__block {
+    max-width: 757px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__right {
+    max-width: 619px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    &-images {
+      max-width: 240px;
+      width: 100%;
+    }
+    &-block {
+      max-width: 344px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+
+  }
+  &__sale {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.family__right-title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 141.69%;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.family__price {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+.family__top {
+  max-width: 502px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 150px;
+  margin-bottom: 70px;
+  &-title {
+    max-width: 434px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  &-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    align-items: center;
+    color: #FFFFFF;
+  }
+}
+
+
+
+
+
+.pm, .an {
+  width: 100%;
+}
+.pm {
+  margin-bottom: 0;
+  max-width: 117px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.pm, .an{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // max-width: 100px;
+  // width: 100%;
+}
+
+.eth_input, .text-field-5, .w-input, .counter {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: baseline;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+.minuson, .pluson {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  position: relative;
+}
+
+
+.minuson::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  background-color: #FFFFFF;
+  height: 4px;
+  top: 40%;
+  left: 0px;
+  right: 0px;
+  z-index: 9;
+}
+.pluson::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  background-color: #FFFFFF;
+  height: 4px;
+  top: 40%;
+  left: 0px;
+  right: 0px;
+  z-index: 9;
+}
+.pluson::before {
+  content: " ";
+  position: absolute;
+  display: block;
+  background-color: #FFFFFF;
+  width: 4px;
+  left: 41%;
+  top: 0px;
+  bottom: 0px;
+  z-index: 9;
+}
+
+
+
+.container_metamask_content-btn {
+  margin-bottom: 0;
+  width: 100%;
+}
+.purchase-button-wrapper {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  height: 49px;
+  background: #FFFFFF;
+  border-radius: 40px;
+  border: 4px solid #FFFFFF;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+  transition: all 0.4s;
+  cursor: pointer;
+  &:hover {
+    background: #000000;
+    color: #FFFFFF;
+  }
+}
+
+
+
+
+
+.user-calculation_submit {
+  max-width: 207px;
+  width: 100%;
+  height: 52px;
+  background: rgba(252, 71, 84, 0.98);
+  border: 2px solid #FF828B;
+  border-radius: 5px;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 141.69%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #FFFFFF;
+  transition: all 0.4s;
+  cursor: pointer;
+   &:hover {
+    background: rgba(110, 28, 34, 0.98);
+   }
+}
+
+
+.family__mint,
+.family__mint-text,
+.family__nft {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.family__mint {
+  margin-bottom: 15px;
+}
+.family__mint-sale {
+  margin-bottom: 15px;
+}
+
+.family__mint-text {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
